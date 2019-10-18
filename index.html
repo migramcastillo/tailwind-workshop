@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tailwind Workshop</title>
+    <link rel="stylesheet" href="./css/tailwind.min.css" />
+    <link rel="stylesheet" href="./css/custom.css" />
+  </head>
+  <body class="bg-gray-200">
+    <header class="bg-gray-800 py-2">
+      <div class="container flex mx-auto items-center">
+        <div class="logo w-32 text-white">
+          LOGO
+        </div>
+        <nav class="flex-1 flex justify-between">
+          <ul class="flex justify-between items-center">
+            <li class="mx-4">
+              <a class="text-gray-100" href="#">Inicio</a>
+            </li>
+            <li class="mx-4">
+              <a class="text-gray-400" href="#">Acerca de</a>
+            </li>
+            <li class="mx-4">
+              <a class="text-gray-400" href="#">Portfolio</a>
+            </li>
+            <li class="mx-4">
+              <a class="text-gray-400" href="#">Contacto</a>
+            </li>
+          </ul>
+
+          <a href="#" class="bg-green-500 text-gray-100 rounded py-2 px-4">
+            Login
+          </a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="filter flex justify-center items-center bg-white py-3">
+        <button
+          class="active rounded py-2 px-4 text-gray-600 mx-1"
+          type="button"
+        >
+          Todos
+        </button>
+        <button
+          class="py-2 px-4 text-gray-600 rounded hover:bg-blue-100 hover:text-blue-500 mx-1"
+          type="button"
+        >
+          Playas
+        </button>
+        <button
+          class="py-2 px-4 text-gray-600 rounded hover:bg-blue-100 hover:text-blue-500 mx-1"
+          type="button"
+        >
+          Restaruantes
+        </button>
+        <button
+          class="py-2 px-4 text-gray-600 rounded hover:bg-blue-100 hover:text-blue-500 mx-1"
+          type="button"
+        >
+          Cenotes
+        </button>
+        <button
+          class="py-2 px-4 text-gray-600 rounded hover:bg-blue-100 hover:text-blue-500 mx-1"
+          type="button"
+        >
+          Tours
+        </button>
+        <button
+          class="py-2 px-4 text-gray-600 rounded hover:bg-blue-100 hover:text-blue-500 mx-1"
+          type="button"
+        >
+          Parques
+        </button>
+      </div>
+      <div class="container mx-auto">
+        <div class="card-container flex flex-wrap items-center justify-between">
+          <div class="card w-1/3 p-4">
+            <div class="content bg-white shadow p-3 cursor-pointer relative">
+              <div class="image bg-blue-300 h-56"></div>
+              <div
+                class="overlay py-2 px-4 flex absolute w-full justify-between bottom-0 left-0 bg-white items-center"
+              >
+                <div>
+                  <p class="text-gray-800">Some title</p>
+                  <p class="text-sm text-gray-600">Some caption description</p>
+                </div>
+                <a
+                  class="bg-indigo-500 rounded shadow text-gray-200 px-4 py-2 text-sm"
+                  href="#"
+                >
+                  Action
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card w-1/3 p-4">
+            <div class="content bg-white shadow p-3 cursor-pointer relative">
+              <div class="image bg-blue-300 h-56"></div>
+              <div
+                class="overlay py-2 px-4 flex absolute w-full justify-between bottom-0 left-0 bg-white items-center"
+              >
+                <div>
+                  <p class="text-gray-800">Some title</p>
+                  <p class="text-sm text-gray-600">Some caption description</p>
+                </div>
+                <a
+                  class="bg-indigo-500 rounded shadow text-gray-200 px-4 py-2 text-sm"
+                  href="#"
+                >
+                  Action
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card w-1/3 p-4">
+            <div class="content bg-white shadow p-3 cursor-pointer relative">
+              <div class="image bg-blue-300 h-56"></div>
+              <div
+                class="overlay py-2 px-4 flex absolute w-full justify-between bottom-0 left-0 bg-white items-center"
+              >
+                <div>
+                  <p class="text-gray-800">Some title</p>
+                  <p class="text-sm text-gray-600">Some caption description</p>
+                </div>
+                <a
+                  class="bg-indigo-500 rounded shadow text-gray-200 px-4 py-2 text-sm"
+                  href="#"
+                >
+                  Action
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card w-1/3 p-4">
+            <div class="content bg-white shadow p-3 cursor-pointer relative">
+              <div class="image bg-blue-300 h-56"></div>
+              <div
+                class="overlay py-2 px-4 flex absolute w-full justify-between bottom-0 left-0 bg-white items-center"
+              >
+                <div>
+                  <p class="text-gray-800">Some title</p>
+                  <p class="text-sm text-gray-600">Some caption description</p>
+                </div>
+                <a
+                  class="bg-indigo-500 rounded shadow text-gray-200 px-4 py-2 text-sm"
+                  href="#"
+                >
+                  Action
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card w-1/3 p-4">
+            <div class="content bg-white shadow p-3 cursor-pointer relative">
+              <div class="image bg-blue-300 h-56"></div>
+              <div
+                class="overlay py-2 px-4 flex absolute w-full justify-between bottom-0 left-0 bg-white items-center"
+              >
+                <div>
+                  <p class="text-gray-800">Some title</p>
+                  <p class="text-sm text-gray-600">Some caption description</p>
+                </div>
+                <a
+                  class="bg-indigo-500 rounded shadow text-gray-200 px-4 py-2 text-sm"
+                  href="#"
+                >
+                  Action
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card w-1/3 p-4">
+            <div class="content bg-white shadow p-3 cursor-pointer relative">
+              <div class="image bg-blue-300 h-56"></div>
+              <div
+                class="overlay py-2 px-4 flex absolute w-full justify-between bottom-0 left-0 bg-white items-center"
+              >
+                <div>
+                  <p class="text-gray-800">Some title</p>
+                  <p class="text-sm text-gray-600">Some caption description</p>
+                </div>
+                <a
+                  class="bg-indigo-500 rounded shadow text-gray-200 px-4 py-2 text-sm"
+                  href="#"
+                >
+                  Action
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container mx-auto py-4 text-center">
+        <button type="" class="shadow bg-red-600 text-white py-2 px-8">
+          Inicia sesión para ver más
+        </button>
+      </div>
+    </main>
+  </body>
+</html>
